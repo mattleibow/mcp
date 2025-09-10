@@ -1,0 +1,179 @@
+{
+  "servers": [
+    {
+      "name": "Azure MCP",
+      "repository": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server",
+      "description": "All Azure MCP tools in a single server. The Azure MCP Server implements the MCP specification to create a seamless connection between AI agents and Azure services. Azure MCP Server can be used alone or with the GitHub Copilot for Azure extension in VS Code.",
+      "category": "CLOUD AND INFRASTRUCTURE",
+      "type": "Local",
+      "links": {
+        "readme": "https://github.com/microsoft/mcp/blob/main/servers/Azure.Mcp.Server/README.md",
+        "changelog": "https://github.com/microsoft/mcp/blob/main/servers/Azure.Mcp.Server/CHANGELOG.md",
+        "releases": "https://github.com/microsoft/mcp/releases?q=Azure",
+        "documentation": "https://learn.microsoft.com/azure/developer/azure-mcp-server/",
+        "troubleshooting": "https://github.com/microsoft/mcp/blob/main/servers/Azure.Mcp.Server/TROUBLESHOOTING.md",
+        "support": "https://github.com/microsoft/mcp/blob/main/servers/Azure.Mcp.Server/SUPPORT.md"
+      }
+    },
+    {
+      "name": "Azure AI Foundry",
+      "repository": "https://github.com/azure-ai-foundry/mcp-foundry",
+      "description": "A Model Context Protocol server for Azure AI Foundry, providing a unified set of tools for models, knowledge, evaluation, and more.",
+      "category": "CLOUD AND INFRASTRUCTURE",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/azure-ai-foundry/mcp-foundry"
+      }
+    },
+    {
+      "name": "Azure DevOps",
+      "repository": "https://github.com/microsoft/azure-devops-mcp",
+      "description": "This TypeScript project provides a local MCP server for Azure DevOps, enabling you to perform a wide range of Azure DevOps tasks directly from your code editor.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/microsoft/azure-devops-mcp"
+      }
+    },
+    {
+      "name": "Azure Kubernetes Service (AKS)",
+      "repository": "https://github.com/Azure/aks-mcp",
+      "description": "An MCP server that enables AI assistants to interact with Azure Kubernetes Service (AKS) clusters. It serves as a bridge between AI tools and AKS, translating natural language requests into AKS operations and returning the results in a format the AI tools can understand.",
+      "category": "CLOUD AND INFRASTRUCTURE",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/Azure/aks-mcp"
+      }
+    },
+    {
+      "name": "GitHub",
+      "repository": "https://github.com/github/github-mcp-server",
+      "description": "Access GitHub repositories, issues, and pull requests through secure API integration.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Remote",
+      "endpoint": "https://api.githubcopilot.com/mcp",
+      "links": {
+        "repository": "https://github.com/github/github-mcp-server"
+      }
+    },
+    {
+      "name": "Markitdown",
+      "repository": "https://github.com/microsoft/markitdown",
+      "description": "A specialized MCP server for Markdown processing and manipulation. Enables AI models to read, write, and transform Markdown content with robust parsing and formatting capabilities.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/microsoft/markitdown"
+      }
+    },
+    {
+      "name": "Microsoft 365 Agents Toolkit",
+      "repository": "https://github.com/OfficeDev/microsoft-365-agents-toolkit/",
+      "description": "The Microsoft 365 Agents Toolkit MCP Server is a Model Context Protocol (MCP) server that provides a seamless connection between AI agents and developers for building apps and agents for Microsoft 365 and Microsoft 365 Copilot.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/OfficeDev/microsoft-365-agents-toolkit/"
+      }
+    },
+    {
+      "name": "Microsoft Clarity",
+      "repository": "https://github.com/microsoft/clarity-mcp-server",
+      "description": "This is a Model Context Protocol (MCP) server for the Microsoft Clarity data export API. It allows you to fetch analytics data from Clarity using Claude for Desktop or other MCP-compatible clients.",
+      "category": "DATA AND ANALYTICS",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/microsoft/clarity-mcp-server"
+      }
+    },
+    {
+      "name": "Microsoft Dataverse",
+      "repository": "https://go.microsoft.com/fwlink/?linkid=2320176",
+      "description": "Chat over your business data using NL - Discover tables, run queries, retrieve data, insert or update records, and execute custom prompts grounded in business knowledge and context.",
+      "category": "DATA AND ANALYTICS",
+      "type": "Local",
+      "links": {
+        "repository": "https://go.microsoft.com/fwlink/?linkid=2320176"
+      }
+    },
+    {
+      "name": "Microsoft Dev Box",
+      "repository": "https://www.npmjs.com/package/@microsoft/devbox-mcp",
+      "description": "An MCP server for Microsoft Dev Box. Enables natural language interactions for developer-focused operations like managing Dev Boxes, configuring environments, and handling pools.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://www.npmjs.com/package/@microsoft/devbox-mcp"
+      }
+    },
+    {
+      "name": "Microsoft Files",
+      "repository": "https://github.com/microsoft/files-mcp-server",
+      "description": "Provides a declarative control plane for managing file-based resources, supporting AI workflows that involve static files and documentation synchronization.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/microsoft/files-mcp-server"
+      }
+    },
+    {
+      "name": "Microsoft Fabric Real-Time Intelligence",
+      "repository": "https://aka.ms/rti.mcp.repo",
+      "description": "This server enables AI agents to interact with Fabric RTI services by providing tools through the MCP interface, allowing for seamless data querying and analysis capabilities.",
+      "category": "DATA AND ANALYTICS",
+      "type": "Local",
+      "links": {
+        "repository": "https://aka.ms/rti.mcp.repo"
+      }
+    },
+    {
+      "name": "Microsoft Learn",
+      "repository": "https://github.com/microsoftdocs/mcp",
+      "description": "AI assistant with real-time access to official Microsoft documentation.",
+      "category": "PRODUCTIVITY",
+      "type": "Remote",
+      "endpoint": "https://learn.microsoft.com/api/mcp",
+      "links": {
+        "repository": "https://github.com/microsoftdocs/mcp"
+      }
+    },
+    {
+      "name": "Microsoft SQL",
+      "repository": "https://aka.ms/MssqlMcp",
+      "description": "Chat with your business data the new agentic way using natural language and AI. Connect to any SQL database—from ground (on-premises) to Azure cloud to Microsoft Fabric via a simple connection string. Discover and define table schemas, manage tables, and perform CRUD operations through conversational prompts.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://aka.ms/MssqlMcp"
+      }
+    },
+    {
+      "name": "Playwright",
+      "repository": "https://github.com/microsoft/playwright-mcp",
+      "description": "This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.",
+      "category": "DEVELOPER TOOLS",
+      "type": "Local",
+      "links": {
+        "repository": "https://github.com/microsoft/playwright-mcp"
+      }
+    }
+  ],
+  "categories": {
+    "CLOUD AND INFRASTRUCTURE": {
+      "name": "Cloud & Infrastructure",
+      "icon": "fas fa-cloud"
+    },
+    "DEVELOPER TOOLS": {
+      "name": "Developer Tools",
+      "icon": "fas fa-code"
+    },
+    "DATA AND ANALYTICS": {
+      "name": "Data & Analytics",
+      "icon": "fas fa-chart-bar"
+    },
+    "PRODUCTIVITY": {
+      "name": "Productivity",
+      "icon": "fas fa-rocket"
+    }
+  }
+}
